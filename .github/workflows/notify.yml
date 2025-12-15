@@ -3,7 +3,7 @@ name: Naver News -> Telegram
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/5 * * * *"   # 5분마다 (UTC 기준)
+    - cron: "*/5 * * * *"
 
 jobs:
   run:
